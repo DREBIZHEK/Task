@@ -289,7 +289,6 @@ $('.popup-fadeDel').click(function(e) {
         $(this).fadeOut();
     }
 });
-/////////////////////////////////////////////////////
 $("#myTable").on('click', '.ebutton', function() {
     $('.popup-fadeAdd').fadeIn();
     return false;
@@ -320,8 +319,3 @@ $(document).keydown(function(e) {
         $('#accept').click();
     }
 })
-
-
-
-
-//переделать update. добавить краную рамку если введенные данные не валидны. попытаться сделать доп задания
