@@ -1,0 +1,236 @@
+ .topsearch {
+     margin-top: 5%;
+     margin-left: 10%;
+ }
+ 
+ .searchButton {
+     margin-right: 33.5%;
+ }
+ 
+ .table {
+     margin-top: 10px;
+     margin-left: 10%;
+ }
+ 
+ .dbutton {
+     margin-left: 7%;
+     width: 40%;
+ }
+ 
+ .ebutton {
+     margin-left: 7%;
+     width: 40%;
+ }
+ 
+ .footer {
+     margin-top: 10px;
+     display: flex;
+     margin-left: 10%;
+ }
+ 
+ .addupdate {
+     margin-left: 10px;
+ }
+ 
+ .addbut {
+     margin-top: 18px;
+     margin-left: 40px;
+     height: 20px;
+ }
+ 
+ .flex {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ tr td {
+     height: 35px;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .countInput {
+     width: 50px;
+ }
+ 
+ .priceInput {
+     width: 100px;
+ }
+ 
+ .sortButton {
+     width: 0;
+     height: 0;
+     border-top: 20px solid black;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+ }
+ 
+ .sortButtonRevers {
+     width: 0;
+     height: 0;
+     border-bottom: 20px solid black;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+ }
+ 
+ .hidden {
+     display: none;
+ }
+ 
+ .invalid {
+     border: 2px solid red
+ }
+ 
+ .invalidNameType {
+     margin-left: 42%;
+     margin-top: -141px;
+     padding-bottom: 10%;
+     width: 168px;
+     height: 70px;
+     border: 1px solid red;
+     border-radius: 10px;
+     padding: 20px;
+     position: absolute;
+ }
+ 
+ .invalidNameType::before,
+ .invalidNameType::after {
+     content: '';
+     position: absolute;
+     bottom: 85px;
+     border: 10px solid transparent;
+     border-right: 10px solid red;
+     left: -20px;
+ }
+ 
+ .invalidNameType::after {
+     border-right: 10px solid white;
+     bottom: 85px;
+     left: -19px;
+ }
+ 
+ .invalidCount {
+     margin-left: 40%;
+     margin-top: -106px;
+     padding-bottom: 10%;
+     width: 200px;
+     height: 17px;
+     border: 1px solid red;
+     border-radius: 10px;
+     padding: 20px;
+     position: absolute;
+ }
+ 
+ .invalidCount::before,
+ .invalidCount::after {
+     content: '';
+     position: absolute;
+     left: -21px;
+     bottom: 30px;
+     border: 10px solid transparent;
+     border-right: 10px solid red;
+ }
+ 
+ .invalidCount::after {
+     border-right: 10px solid white;
+     bottom: 30px;
+     left: -20px;
+ }
+ 
+ .invalidPrice {
+     margin-left: 40%;
+     margin-top: -87px;
+     padding-bottom: 10%;
+     width: 200px;
+     height: 17px;
+     border: 1px solid red;
+     border-radius: 10px;
+     padding: 20px;
+     position: absolute;
+ }
+ 
+ .invalidPrice::before,
+ .invalidPrice::after {
+     content: '';
+     position: absolute;
+     left: -20px;
+     bottom: 11px;
+     border: 10px solid transparent;
+     border-right: 10px solid red;
+ }
+ 
+ .invalidPrice::after {
+     border-right: 10px solid white;
+     bottom: 11px;
+     left: -19px;
+ }
+ /* s */
+ 
+ .popup-fadeDel {
+     display: none;
+ }
+ 
+ .popup-fadeDel:before {
+     content: '';
+     background: #000;
+     position: fixed;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0.7;
+     z-index: 9999;
+ }
+ 
+ .popupDel {
+     position: fixed;
+     top: 20%;
+     left: 50%;
+     padding: 20px;
+     width: 360px;
+     margin-left: -200px;
+     background: #fff;
+     border: 1px solid black;
+     border-radius: 4px;
+     z-index: 99999;
+     opacity: 1;
+ }
+ 
+ .popup-closeDel {
+     margin-left: 35%;
+ }
+ /* s */
+ 
+ .popup-fadeAdd {
+     display: none;
+ }
+ 
+ .popup-fadeAdd:before {
+     content: '';
+     background: #000;
+     position: fixed;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0.7;
+     z-index: 9999;
+ }
+ 
+ .popupAdd {
+     position: fixed;
+     top: 20%;
+     left: 50%;
+     padding: 20px;
+     width: 400px;
+     margin-left: -200px;
+     background: #fff;
+     border: 1px solid black;
+     border-radius: 4px;
+     z-index: 99999;
+     opacity: 1;
+ }
+ 
+ .popup-closeAdd {
+     margin-left: 35%;
+ }

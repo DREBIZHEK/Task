@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.4.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EPAM</title>
+</head>
+
+<body>
+    <div class="topsearch flex">
+        <input id="searchIn" size="40" type="text">
+        <button id="searchButton" class="searchButton ">search</button>
+        <button id="addNewButton" class="searchButton popup-openAdd">Add New</button>
+    </div>
+
+    <table id='myTable' class="table" border="1" align="center" width="60%" cellspacing="0">
+        <tr id="head">
+            <td width="40%">
+                <div class="flex">
+                    <span>Name:</span>
+                    <div id="sortName1" class="sortButton"></div>
+                </div>
+            </td>
+            <td width="20%">
+                <div class="flex">
+                    <span>Price:</span>
+                    <div id="sortPrice1" class="sortButton"></div>
+                </div>
+            </td>
+            <td width="20%">
+                <div class="flex">
+                    <span>Actions:</span>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+
+
+    <div class="popup-fadeDel">
+        <div class="popupDel">
+            <p>Удалить товар?</p>
+            <div class="popup-closeDel">
+                <button id="okButton">OK</button>
+                <button id="cancelButoon">Отмена</button>
+            </div>
+        </div>
+    </div>
+    <div class="popup-fadeAdd">
+        <div class="popupAdd">
+            <div id='addButon'>
+                <label>
+                    <div>
+                        Name:
+                    </div>
+                    <input id="nameIn">
+                </label>
+                <label class="addupdate">
+                    <div>
+                        Count:
+                    </div>
+                    <input type="number" id="countIn" class="countInput">
+                </label>
+                <label class="addupdate">
+                    <div>
+                        Price:
+                    </div>
+                    <input type="number" id="priceIn" class="priceInput">
+                </label>
+            </div>
+            <div class="popup-closeAdd">
+                <button id="accept" class="addbut" type="Add">Add</button>
+            </div>
+            <div class="flex">
+                <div id="invalidName" class="hidden">Имя не может быть пустым, состоять только из пробелов или быть длиннее 15 символов.</div>
+                <div id="invalidCount" class="hidden">Поле не может быть пустым.</div>
+                <div id="invalidPrice" class="hidden">Поле не может быть пустым.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="func.js"></script>
+    <script src="data.js"></script>
+</body>
+
+</html>
